@@ -2,14 +2,21 @@
 
 using namespace std;
 
-int tong(int a, int b);
+int tong(int a, int b){
+return(a+b);
+};
 int hieu(int a, int b);
+<<<<<<< HEAD
 float thuong(int a, int b);
 int tich(int a, int b)
 {
 	int s=a*b;
 	return s;
 }
+=======
+int tich(int a, int b);
+float thuong(int a, int b);
+>>>>>>> 156b1814cb8940ea17fc7e2889a90fdfe448fd54
 int main()
 {
 
@@ -19,7 +26,7 @@ int main()
 	cin>>a;
 	cout<<"\nnhap b:";
 	cin>>b;
-	cout<< "tich cua a va b la: "<<tich(a,b)<<endl;
+	cout<< "tong cua a va b la: "<<tong(a,b)<<endl;
 
 
 	system("pause");
