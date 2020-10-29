@@ -6,8 +6,15 @@ int tong(int a, int b){
 return(a+b);
 };
 int hieu(int a, int b);
-int tich(int a, int b);
 float thuong(int a, int b);
+int tich(int a, int b)
+{
+	
+	return a*b;
+}
+
+float thuong(int a, int b);
+
 int main()
 {
 
@@ -18,6 +25,7 @@ int main()
 	cout<<"\nnhap b:";
 	cin>>b;
 	cout<< "tong cua a va b la: "<<tong(a,b)<<endl;
+	cout<< "tich cua a va b la: "<<tich(a,b)<<endl;
 
 
 	system("pause");
